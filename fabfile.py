@@ -311,13 +311,13 @@ def deploy():
     setup_services()
 
     ## Activate venv, build and install python-openzwave ##
-    setup_openzwave()
+    ##    setup_openzwave()
 
     ## Build and install libmicrohttpd ##
     setup_libmicrohttpd()
 
     ## Build and install open-zwave-control-panel ##
-    setup_openzwave_controlpanel()
+    ##    setup_openzwave_controlpanel()
 
     ## Reboot the system ##
     reboot()
